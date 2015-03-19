@@ -1,5 +1,5 @@
 {
-  "name": "scroll-to-y",
+  "name": "scroll-to-y-el",
   "version": "0.1.0",
   "description": "Vertically scroll to an Element using requestAnimationFrame",
   "main": "index.js",
