@@ -1,0 +1,29 @@
+{
+  "name": "scroll-to-y",
+  "version": "0.1.0",
+  "description": "Vertically scroll to an Element using requestAnimationFrame",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs index.js -cm > scroll-to-y.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dariocravero/scroll-to-y"
+  },
+  "keywords": [
+    "scroll",
+    "to",
+    "y",
+    "requestAnimationFrame",
+    "vertical"
+  ],
+  "author": "Darío Javier Cravero <dario@uxtemple.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dariocravero/scroll-to-y/issues"
+  },
+  "homepage": "https://github.com/dariocravero/scroll-to-y",
+  "devDependencies": {
+    "uglify-js": "^2.4.17"
+  }
+}
