@@ -15,8 +15,8 @@
 function scrollToY(target, options) {
   // Defaults
   options = options || {};
-  let easing = options.easing || function(v) { return v; };
-  let speed = options.speed || 2000;
+  var easing = options.easing || function(v) { return v; };
+  var speed = options.speed || 2000;
 
   // Get the right target
   target = typeof target === 'string' ? document.querySelector(target) : target;
